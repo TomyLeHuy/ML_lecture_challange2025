@@ -11,7 +11,7 @@ from util import visualize
 
 # Load training dataset
 images_train, scrib_train, gt_train, fnames_train, palette = load_dataset(
-    "dataset/training", "images", "scribbles", "ground_truth"
+    "dataset/train", "images", "scribbles", "ground_truth"
 )
 
 # Inference
